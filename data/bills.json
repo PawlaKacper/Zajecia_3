@@ -1,9 +1,17 @@
 [
     {
         "amount_pln": 760.00,
-        "date_due": "2025-02-01",
+        "date_due": "2025-02-02",
+        "settlement_year": 2024,
+        "settlement_month": 14,
+        "apartment": "apart-polanka",
+        "type": "rent"
+    },
+    {
+        "amount_pln": 1300.00,
+        "date_due": "2025-02-02",
         "settlement_year": 2025,
-        "settlement_month": 1,
+        "settlement_month": 26,
         "apartment": "apart-polanka",
         "type": "rent"
     }
