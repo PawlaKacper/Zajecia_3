@@ -3,12 +3,13 @@ from typing import Dict, List
 
 import json
 
-class ApartamentsSettlement(Basemodel):
+class ApartamentsSettlement(BaseModel):
     media: float
     czynsz: float
     nr_miekszkania: int
     miesiac: int
     rok: int
+    # wykonaiie zaddania
 
 
 class Parameters(BaseModel):
@@ -135,7 +136,7 @@ if __name__ == '__main__':
 
     for tenant in manager.tenants.values():
         print("Lista najemców: ")
-        print(tenant.name, tenant.apartment, tenant.room, tenant.rent_pln, tenant.deposit_pln, tenant.date_agreement_from, tenant.date_agreement_to)
+        print("Osoba: ", tenant.name,"\n" , tenant.apartment, tenant.room,"\n", tenant.rent_pln, tenant.deposit_pln,"\n", tenant.date_agreement_from, tenant.date_agreement_to)
         for transfer in manager.transfers:
             if transfer.tenant == tenant.name:
                 print("Przelew: ")
