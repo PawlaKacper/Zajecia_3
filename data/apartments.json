@@ -12,6 +12,10 @@
             "room-smaller": {
                 "name": "Smaller Room",
                 "area_m2": 15
+            },
+            "kitchen": {
+                "name": "Kitchen",
+                "area_m2": 17
             }
         }
     } 
