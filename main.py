@@ -6,7 +6,7 @@ import json
 class ApartamentsSettlement(Basemodel):
     media: float
     czynsz: float
-    nr_miekszkania: float
+    nr_miekszkania: int
     miesiac: int
     rok: int
 
