@@ -9,6 +9,7 @@ class ApartamentsSettlement(Basemodel):
     nr_miekszkania: int
     miesiac: int
     rok: int
+    # wykonaiie zaddania
 
 
 class Parameters(BaseModel):
